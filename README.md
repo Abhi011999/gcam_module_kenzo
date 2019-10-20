@@ -17,7 +17,6 @@ This module is compatible with Android 8.0+ (All custom ROM's, not with stock).
 6. Constant framerates when shooting videos
 7. Improved Denoising for 30 fps videos
 
-
 ## Who did what ?
 - [**SerJo87**](https://forum.xda-developers.com/member.php?u=5074663) and [**Kiraryu**](https://forum.xda-developers.com/member.php?u=8549930) modified the the initial libs that enable 60fps recording. (Currently not using the libs)
 - [**Savitar(defcomg)**](https://forum.xda-developers.com/member.php?u=377973) edited the libs to increase maximum ISO and improve denoising.
@@ -33,6 +32,12 @@ Huge thanks to everyone who helped to make this module possible !
 [***Zackptg5***](https://github.com/Zackptg5) for [Unity](https://github.com/Zackptg5/Unity) template.
 
 ## Changelogs
+### 1.3
+- Upgraded to Unity Template v4.4 (more features/options over stock).
+- Enabled Minimum API detection above API Level 26 (8.0.0 - Oreo). Below this API Level, no android versions are supported.
+- Install Script cleanup
+- Removed Fingerprint Shutter as requested by most users (Maybe i can make it optional in next update).
+
 ### 1.2
 - Added 4k DCI support
 - Increased max ISO from 6400 to 12800
