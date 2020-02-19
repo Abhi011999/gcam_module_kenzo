@@ -1,5 +1,4 @@
 ui_print "~ Verifying Device ...                           "
-
 device_check "kenzo"|"kate"
 
 ui_print "-------------------------------------------------"
@@ -17,3 +16,7 @@ ui_print "4. 4k DCI Support                           (1.2)"
 ui_print "5. Increased Maximum ISO value - 12,800     (1.2)"
 ui_print "6. Constant framerates when shooting videos (1.2)"
 ui_print "7. Improved Denoising for 30 fps videos     (1.2)"
+ui_print "-------------------------------------------------"
+
+ui_print "~ Enabling Codec2 ...                            "
+prop_process $MODPATH/common/custom.prop
