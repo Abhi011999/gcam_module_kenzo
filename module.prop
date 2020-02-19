@@ -1,7 +1,7 @@
-id=gcam_patch_kenzo
-name=GCam Patch for kenzo/kate
-version=1.3
-versionCode=4
+id=gcam_module_kenzo
+name=GCam Module for kenzo/kate
+version=1.4
+versionCode=5
 author=@BoogeyWoogey69
-description=This patch replaces some original libs with modified one's to enable/fix specific features in Google Camera for kenzo/kate
+description=This module replaces some original libs with modified one's to enable/fix specific features in Google Camera for kenzo/kate
 support=https://t.me/rn3photography
